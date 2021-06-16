@@ -1,2 +1,1 @@
-# go-lc
-usually go func helpers
+# 每日学习笔记
