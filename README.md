@@ -6,6 +6,7 @@
 - [Linux Basic](#linux-basic)
 - [Network](#network)
 - [Database](#database)
+- [MQ](#mq)
 - [Golang](#golang)
 - [Rust](#rust)
 - [Kubernetes](#kubernetes)
@@ -19,10 +20,13 @@
 ## Linux-Basic
 - [Linux内存管理机制](./assets/Linux-Memory.pdf)
 
+## Network
+
 ## Database
 - [MongoDB知识](./assets/MongoDB.pdf)
 
-## Network
+## MQ
+- [Kafka知识](./assets/kafka.pdf)
 
 ## Golang
 
