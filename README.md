@@ -3,6 +3,7 @@
 ## 目录
 
 - [Architecutre](#architecture)
+- [Algorithm](#algorithm)
 - [Linux Basic](#linux-basic)
 - [Network](#network)
 - [Database](#database)
@@ -16,6 +17,9 @@
 ---
 
 ## Architecture
+
+## Algorithm
+- [10亿个数中如何高效地找到最大的一个数以及最大的第k个数](Algorithm/10亿个数中如何高效地找到最大的一个数以及最大的第k个数.md)
 
 ## Linux-Basic
 - [Linux内存管理机制](./assets/Linux-Memory.pdf)
