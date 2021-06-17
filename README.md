@@ -17,6 +17,7 @@
 
 ## Architecture
 - [评论系统架构设计](Architecture/comment.md)
+- [三种缓存设计模式](assets/cache.pdf)
 
 ## Algorithm
 - [10亿个数中如何高效地找到最大的一个数以及最大的第k个数](Algorithm/10亿个数中如何高效地找到最大的一个数以及最大的第k个数.md)
