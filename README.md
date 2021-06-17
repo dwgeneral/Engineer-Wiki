@@ -31,6 +31,7 @@
 ## Golang
 
 ## Rust
+- [Rust语言核心特性](./assets/rust-core.pdf)
 
 ## Kubernetes
 
