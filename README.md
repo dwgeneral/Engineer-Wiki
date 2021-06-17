@@ -38,6 +38,7 @@
 - [Kafka知识](./assets/kafka.pdf)
 
 ## Golang
+- [Go并发模型](Go/goroutine.md)
 
 ## Rust
 - [Rust语言核心特性](./assets/rust-core.pdf)
