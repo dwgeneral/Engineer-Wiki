@@ -20,6 +20,10 @@
 ## Linux-Basic
 - [Linux内存管理机制](./assets/Linux-Memory.pdf)
 - [操作系统那颗树](./assets/os-tree.pdf)
+- [简述Linux进程调度算法](Linux-Basic/简述Linux进程调度的算法.md)
+- [简述select,poll,epoll的使用场景以及区别,epoll中水平触发以及边缘触发有什么不同](Linux-Basic/简述select,poll,epoll的使用场景以及区别,epoll中水平触发以及边缘触发有什么不同.md)
+- [进程间有哪些通信方式](Linux-Basic/进程间有哪些通信方式.md)
+- [什么时候会由用户态陷入内核态](Linux-Basic/什么时候会由用户态陷入内核态.md)
 
 ## Network
 
