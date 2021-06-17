@@ -10,6 +10,7 @@
 - [Rust](#rust)
 - [Kubernetes](#kubernetes)
 - [Api-Tools](#api-tools)
+- [Business](#business)
 
 ---
 
@@ -28,4 +29,7 @@
 ## Kubernetes
 
 ## Api-Tools
-- [GraphQL](./assets/GraphQL.pdf)
+- [GraphQL知识](./assets/GraphQL.pdf)
+
+## Business
+- [如何分析一家公司](./assets/analyse-company.pdf)
