@@ -85,7 +85,7 @@ Go语言调度器(scheduler)由4个主要结构组成，分别是M、G、P、Sch
 - G结构是 goroutine 实现的核心结构，包含了栈、指令指针以及其他对调度 goroutine 很重要的信息
 - Sched结构是调度器，维护 Machine 和 goroutine 队列以及调度器的一些状态信息等
 
-![GMP](./assets/gmp.png ':size=700')
+![GMP](./assets/gmp.png ':size=400')
 
 引入了 local queue，因为 P 的存在，runtime 并不需要做一个集中式的 goroutine 调度，每一个 M 都会在 P's local queue、global queue 或者其他 P 队列中找 G 执行，减少全局锁对性能的影响。
 这也是 GMP Work-stealing 调度算法的核心。注意 P 的本地 G 队列还是可能面临一个并发访问的场景，为了避免加锁，这里 P 的本地队列是一个 LockFree的队列，窃取 G 时使用 CAS 原子操作来完成。关于LockFree 和 CAS 的知识参见 Lock-Free。
