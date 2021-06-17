@@ -31,6 +31,7 @@
 
 ## Database
 - [MongoDB知识](./assets/MongoDB.pdf)
+- [Redis源码解析](./assets/Redis.pdf)
 
 ## MQ
 - [Kafka知识](./assets/kafka.pdf)
