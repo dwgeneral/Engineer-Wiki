@@ -19,6 +19,7 @@
 
 ## Linux-Basic
 - [Linux内存管理机制](./assets/Linux-Memory.pdf)
+- [操作系统那颗树](./assets/os-tree.pdf)
 
 ## Network
 
