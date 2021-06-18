@@ -38,7 +38,13 @@
 ## Database
 - [MySQL索引分类](./assets/MySQL-Index.pdf)
 - [MongoDB知识](./assets/MongoDB.pdf)
-- [Redis源码解析](./assets/Redis.pdf)
+- [Redis主要特点和使用场景](./assets/Redis-Basic.pdf)
+- [Redis源码解析-数据结构与对象](./assets/Redis-DataStructure.pdf)
+- [Redis源码解析-数据库实现](./assets/Redis-DB.pdf)
+- [Redis源码解析-事件模型](./assets/Redis-Event.pdf)
+- [Redis源码解析-持久化机制](./assets/Redis-SaveDisk.pdf)
+- [Redis源码解析-事务](./assets/Redis-Transaction.pdf)
+- [Redis源码解析-分布式](./assets/Redis-Distribute.pdf)
 
 ## MQ
 - [Kafka知识](./assets/kafka.pdf)
