@@ -1,7 +1,14 @@
+package algorithm
+
+type TreeNode struct {
+	Val         int
+	Left, Right *TreeNode
+}
+
 /*
  * 递归 O(n) O(n)
  */
- func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
 	}
