@@ -1,0 +1,23 @@
+/*
+ * 双指针法, 两个指针同时从两个链表头部出发, 走到尾部后继续走另一条链表, 则如果两链表相交, 必然两指针相交, 否则返回 nil
+ */
+func getIntersectionNode(headA, headB *ListNode) *ListNode {
+    if headA == nil || headB == nil {
+        return nil
+    }    
+    p, q := headA, headB
+    for p != q {
+        p = p.Next
+        q = q.Next
+        if p == nil && q == nil {
+            return nil
+        }
+        if p == nil {
+            p = headB
+        }    
+        if q == nil {
+            q = headA
+        }
+    } 
+    return p
+}
