@@ -37,7 +37,7 @@ Kubernetes 架构是一个典型的二层架构（Mater 和 Node）和 CS 架构
 ![kubernetes-create-pod](./assets/kubernetes_create_pod.jpg)
 
 - 用户通过操作界面或者CLI提交了一个 Pod 给 K8S 进行部署，这个 Pod 请求被提交给了 API Server
-- API Server 会把这个信息写入到存储系统 Etcd 中，然后通过 watch 机制 Scheduler 直到了有一个 Pod 需要被调度
+- API Server 会把这个信息写入到存储系统 Etcd 中，然后通过 watch 机制 Scheduler 知道了有一个 Pod 需要被调度
 - Scheduler 根据目前集群的资源状态进行了一次调度决策，然后汇报给 API Server 此次调度信息（这个 Pod 需要被调度到哪个节点上）
 - API Server 接收到调度信息后，将其写入 Etcd，然后通知相关 Node节点的 kubelet 去执行
 - Kubelet 得到通知，调用 Container Runtime 进行容器的创建和运行，调用 Storage Plugin 去配置存储，调用 Network Plugin 去配置网络

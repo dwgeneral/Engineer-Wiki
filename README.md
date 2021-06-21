@@ -58,6 +58,7 @@
 - [Rust语言核心特性](./assets/rust-core.pdf)
 
 ## Cloud-Native
+- [Kubernetes架构](./assets/kubernetes-archi.pdf)
 - [Kubernetes基础](Cloud-Native/kubernetes-basic.md)
 - [Docker实现原理](./assets/docker-core.pdf)
 
