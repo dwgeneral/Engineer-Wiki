@@ -41,6 +41,8 @@
 
 ## Database
 - [MySQL索引分类](./assets/MySQL-Index.pdf)
+- [MySQL锁的分类](./assets/MySQL-Lock.pdf)
+- [MySQL事务](./assets/MySQL-Transaction.pdf)
 - [MongoDB知识](./assets/MongoDB.pdf)
 - [Redis主要特点和使用场景](./assets/Redis-Basic.pdf)
 - [Redis源码解析-数据结构与对象](./assets/Redis-DataStructure.pdf)
