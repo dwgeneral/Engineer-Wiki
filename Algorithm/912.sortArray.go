@@ -81,3 +81,32 @@ func buildHeap(nums []int, n int) {
 		heapify(nums, n, i)
 	}
 }
+
+/*
+ * 桶排序
+ */
+func bucketSort(nums []int, bucketNum int) []int {
+	bucket := [][]int{}
+	for i := 0; i < bucketNum; i++ {
+		tmp := make([]int, 1)
+		bucket = append(bucket, tmp)
+	}
+	//将数据分配到桶中
+	for i := 0; i < len(nums); i++ {
+		bucket[nums[i]/bucketNum] = append(bucket[nums[i]/bucketNum], nums[i])
+	}
+	//循环所有的桶进行排序
+	index := 0
+	for i := 0; i < bucketNum; i++ {
+		if len(bucket[i]) > 1 {
+			//对每个桶内部进行排序,使用快排
+			bucket[i] = quickSort(bucket[i], 0, len(bucket[i])-1)
+			for j := 1; j < len(bucket[i]); j++ {
+				//去掉一开始的tmp
+				nums[index] = bucket[i][j]
+				index++
+			}
+		}
+	}
+	return nums
+}
