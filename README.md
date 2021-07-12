@@ -26,6 +26,7 @@
 - [10亿个数中如何高效地找到最大的一个数以及最大的第k个数](Algorithm/10亿个数中如何高效地找到最大的一个数以及最大的第k个数.md)
 - [海量数据处理](Algorithm/海量数据处理.md)
 - [排序算法全解析](./assets/sort.pdf)
+- [一致性Hash算法](./assets/consistent-hash.pdf)
 
 ## Linux-Basic
 - [Linux内存管理机制](./assets/Linux-Memory.pdf)
