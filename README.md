@@ -67,6 +67,7 @@
 - [Kafka知识](./assets/kafka.pdf)
 
 ## Golang
+- [Go内存管理](Go/memory.md)
 - [Go并发模型](Go/goroutine.md)
 
 ## Rust
