@@ -36,9 +36,9 @@
         4. 如果没有，则根据所属的 spanClass, 从 mheap 的页分配器 pageAlloc 找出空闲页组装成 mspan 填充到 mcache ,然后从 mspan 中取(全局锁)
         5. 如果没有，mheap 向操作系统申请内存，更新 pageAlloc 索引信息，然后重复 step 4
     - Small Obj(16B, 32K)
-        - 跳过1，执行2-5
+        - 跳过a，执行b-e
     - Large Obj(>32K)
-        - 跳过1-3，执行4-5
+        - 跳过a-c，执行d-e
 
 - 无论是 new, make, &T{}, 分配内存最终由 mallocgc 方法负责
     - 因为内存分配本身也是触发GC的一个入口，当发现mcache/mcentral中的内存不够用了，
