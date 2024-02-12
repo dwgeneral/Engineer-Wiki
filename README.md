@@ -85,5 +85,5 @@
 - [如何分析一家公司](./assets/analyse-company.pdf)
 - [发现独角兽](./assets/find-unicorn.pdf)
 
-## 个人开源项目
+## 个人AI项目
 - [过年回家模拟器](https://dayi.happyengineer.xyz/)
